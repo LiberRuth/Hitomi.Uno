@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hitomi.Uno", "Hitomi.Uno\Hitomi.Uno.csproj", "{9A7532A4-1C16-4CB7-AB49-01F7A6A28297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9C39F40-2F92-48A7-87AE-1A005C395651}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hitomi.NET", "Hitomi.NET\Hitomi.NET.csproj", "{00283CF5-AA75-4C5E-9E8A-E3B679F1971C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A7532A4-1C16-4CB7-AB49-01F7A6A28297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7532A4-1C16-4CB7-AB49-01F7A6A28297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7532A4-1C16-4CB7-AB49-01F7A6A28297}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A7532A4-1C16-4CB7-AB49-01F7A6A28297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7532A4-1C16-4CB7-AB49-01F7A6A28297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7532A4-1C16-4CB7-AB49-01F7A6A28297}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{00283CF5-AA75-4C5E-9E8A-E3B679F1971C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00283CF5-AA75-4C5E-9E8A-E3B679F1971C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00283CF5-AA75-4C5E-9E8A-E3B679F1971C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00283CF5-AA75-4C5E-9E8A-E3B679F1971C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD2E174A-D543-49B2-A5F0-6ED035D11FD9}
+	EndGlobalSection
+EndGlobal
